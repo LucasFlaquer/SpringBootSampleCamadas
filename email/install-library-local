@@ -1,0 +1,8 @@
+mvn install:install-file -Dfile=email-1.0-SNAPSHOT.jar -DgroupId=com.api.email -DartifactId=email -Dversion=1.0-SNAPSHOT -Dpackaging=jar
+
+
+<dependency>
+	<groupId>com.api.email</groupId>
+	<artifactId>email</artifactId>
+	<version>1.0-SNAPSHOT</version>
+</dependency>
